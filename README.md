@@ -4,11 +4,11 @@
 
 GIF da demonstração:
 
-![ ](url_da_imagem.jpg)
+![ ](https://raw.githubusercontent.com/xFaabricio/DarkLightSwitch/main/demo.gif)
 
 ### Demo
 
-[Demonstração](URL)
+[Demonstração](https://dark-light-switch.vercel.app/)
 
 ### Contato
 
