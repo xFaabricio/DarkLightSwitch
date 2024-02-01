@@ -1,3 +1,7 @@
+:root {
+    --left-600px: 92%;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -98,5 +102,12 @@ input {
 @media screen and (max-width: 600px) {
     label {
         width: 90%;
+    }
+    input:checked ~ label::after {
+        left:  var(--left-600px);        
+    }
+    
+    input:checked ~ label::before {
+        left: calc(var(--left-600px) + 10px);
     }
 }
